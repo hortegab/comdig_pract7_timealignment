@@ -132,7 +132,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(600, 620)</value>
+      <value>(600, 1212)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -177,6 +177,33 @@
     <param>
       <key>widget</key>
       <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(280, 76)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>NBpCode</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>len(code)/8+10.</value>
     </param>
   </block>
   <block>
@@ -270,6 +297,33 @@
     </param>
   </block>
   <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(368, 76)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>Rbi</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>Rb/(1+NBpCode/payload)</value>
+    </param>
+  </block>
+  <block>
     <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
@@ -285,7 +339,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(320, 620)</value>
+      <value>(320, 1212)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -348,7 +402,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(456, 620)</value>
+      <value>(456, 1212)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -677,6 +731,33 @@
     </param>
     <param>
       <key>_coordinate</key>
+      <value>(16, 76)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>code</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>'010110011011101100010101011111101001001110001011010001101010001'</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
       <value>(864, 12)</value>
     </param>
     <param>
@@ -747,6 +828,33 @@
     </param>
   </block>
   <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(200, 76)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>payload</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>128</value>
+    </param>
+  </block>
+  <block>
     <key>variable_qtgui_check_box</key>
     <param>
       <key>comment</key>
@@ -766,7 +874,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 620)</value>
+      <value>(8, 1212)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -844,7 +952,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(416, 444)</value>
+      <value>(248, 972)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -883,7 +991,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(536, 436)</value>
+      <value>(368, 964)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -942,7 +1050,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(956, 240)</value>
+      <value>(788, 768)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -993,7 +1101,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(872, 964)</value>
+      <value>(872, 1508)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1068,7 +1176,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(544, 1068)</value>
+      <value>(544, 1612)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1112,6 +1220,53 @@
     </param>
   </block>
   <block>
+    <key>b_PCM_Encoder_Bb</key>
+    <param>
+      <key>code</key>
+      <value>code</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(272, 188)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>b_PCM_Encoder_Bb_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>payload</key>
+      <value>payload</value>
+    </param>
+  </block>
+  <block>
     <key>b_PSD</key>
     <param>
       <key>alias</key>
@@ -1135,7 +1290,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(592, 1252)</value>
+      <value>(592, 1796)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1190,7 +1345,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(592, 1372)</value>
+      <value>(592, 1916)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1222,11 +1377,7 @@
     </param>
   </block>
   <block>
-    <key>b_binary_bipolar_source_f</key>
-    <param>
-      <key>Am</key>
-      <value>1.</value>
-    </param>
+    <key>b_bipolar_to_unipolar_ff</key>
     <param>
       <key>alias</key>
       <value></value>
@@ -1241,19 +1392,19 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>True</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 124)</value>
+      <value>(736, 456)</value>
     </param>
     <param>
       <key>_rotation</key>
-      <value>0</value>
+      <value>180</value>
     </param>
     <param>
       <key>id</key>
-      <value>b_binary_bipolar_source_f_0</value>
+      <value>b_bipolar_to_unipolar_ff_0</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1262,10 +1413,6 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>Spb</key>
-      <value>1</value>
     </param>
   </block>
   <block>
@@ -1292,7 +1439,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(304, 940)</value>
+      <value>(304, 1484)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1339,7 +1486,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(312, 1156)</value>
+      <value>(312, 1700)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1378,7 +1525,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 448)</value>
+      <value>(64, 976)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1395,6 +1542,143 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>b_unipolar2bipolar_ff</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(728, 200)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>b_unipolar2bipolar_ff_0_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>blks2_packet_decoder</key>
+    <param>
+      <key>access_code</key>
+      <value>code</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(280, 444)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>180</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blks2_packet_decoder_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>threshold</key>
+      <value>-1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_char_to_float</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(568, 196)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_char_to_float_1</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>scale</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
     </param>
   </block>
   <block>
@@ -1421,7 +1705,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(192, 812)</value>
+      <value>(192, 1356)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1476,7 +1760,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(768, 884)</value>
+      <value>(768, 1428)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1531,7 +1815,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(768, 820)</value>
+      <value>(768, 1364)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1563,6 +1847,163 @@
     </param>
   </block>
   <block>
+    <key>blocks_file_sink</key>
+    <param>
+      <key>append</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>file</key>
+      <value>/home/uis-e3t/MisGits/comdig_pract7_timealignment/recibido.txt</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(16, 436)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>180</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_file_sink_0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>unbuffered</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_file_source</key>
+    <param>
+      <key>begin_tag</key>
+      <value>pmt.PMT_NIL</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>file</key>
+      <value>/home/uis-e3t/MisGits/comdig_pract7_timealignment/enviado.txt</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(16, 180)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_file_source_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>repeat</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_float_to_char</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(584, 452)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>180</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_float_to_char_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>scale</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
     <key>blocks_multiply_const_vxx</key>
     <param>
       <key>alias</key>
@@ -1586,7 +2027,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(664, 444)</value>
+      <value>(496, 972)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1607,53 +2048,6 @@
     <param>
       <key>minoutbuf</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_null_sink</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>bus_conns</key>
-      <value>[[0,],]</value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(16, 448)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>180</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>blocks_null_sink_0</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>1</value>
     </param>
     <param>
       <key>vlen</key>
@@ -1711,7 +2105,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(352, 124)</value>
+      <value>(184, 652)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1766,7 +2160,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(808, 436)</value>
+      <value>(640, 964)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1817,7 +2211,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(144, 620)</value>
+      <value>(144, 1212)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1932,7 +2326,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(24, 508)</value>
+      <value>(336, 524)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1963,7 +2357,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(352, 508)</value>
+      <value>(184, 1036)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1994,7 +2388,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(712, 508)</value>
+      <value>(544, 1036)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2007,6 +2401,68 @@
     <param>
       <key>note</key>
       <value>CHANNEL LAYER</value>
+    </param>
+  </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(40, 324)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>note_0_0_0_0</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>Mensaje</value>
+    </param>
+  </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(24, 532)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>note_0_1</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>APPLICATION LAYER</value>
     </param>
   </block>
   <block>
@@ -2045,7 +2501,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(400, 828)</value>
+      <value>(400, 1372)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2412,7 +2868,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(424, 1484)</value>
+      <value>(424, 2028)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2779,7 +3235,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(424, 1564)</value>
+      <value>(424, 2108)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -3146,7 +3602,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(944, 788)</value>
+      <value>(944, 1332)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -3513,7 +3969,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(936, 868)</value>
+      <value>(936, 1412)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -3856,7 +4312,169 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(604, 192)</value>
+      <value>(460, 304)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>270</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_sink_0_0_0</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>T5</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_sink</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(508, 304)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>90</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_sink_0_0_0_0</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>R5</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_sink</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(236, 296)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>90</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_sink_0_0_0_0_0</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>R6</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_sink</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(188, 304)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>270</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_sink_0_0_0_1</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>T6</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_source</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(20, 704)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>90</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_source_0</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>T4</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_source</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(940, 288)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>270</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_source_0_0</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>R4</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_sink</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(436, 720)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3883,7 +4501,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(604, 336)</value>
+      <value>(436, 864)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3910,7 +4528,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1076, 328)</value>
+      <value>(908, 824)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3937,7 +4555,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(188, 336)</value>
+      <value>(20, 864)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3964,7 +4582,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(188, 184)</value>
+      <value>(892, 288)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3991,7 +4609,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(40, 1276)</value>
+      <value>(40, 1820)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4018,7 +4636,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(40, 1404)</value>
+      <value>(40, 1948)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4045,7 +4663,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 1036)</value>
+      <value>(8, 1580)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4072,7 +4690,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(24, 812)</value>
+      <value>(24, 1356)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4099,7 +4717,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(16, 868)</value>
+      <value>(16, 1412)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4126,7 +4744,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(40, 1580)</value>
+      <value>(40, 2124)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4153,7 +4771,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(48, 1500)</value>
+      <value>(48, 2044)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4180,7 +4798,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(608, 820)</value>
+      <value>(608, 1364)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4207,7 +4825,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(608, 884)</value>
+      <value>(608, 1428)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4234,7 +4852,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(24, 1172)</value>
+      <value>(24, 1716)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4369,26 +4987,50 @@ def rrcos(Sps,ntaps,beta):
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>b_binary_bipolar_source_f_0</source_block_id>
-    <sink_block_id>interp_fir_filter_xxx_0</sink_block_id>
+    <source_block_id>b_PCM_Encoder_Bb_0</source_block_id>
+    <sink_block_id>blocks_char_to_float_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>b_binary_bipolar_source_f_0</source_block_id>
-    <sink_block_id>vs_0_2</sink_block_id>
+    <source_block_id>b_PCM_Encoder_Bb_0</source_block_id>
+    <sink_block_id>virtual_sink_0_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>b_unipolar2bipolar_ff_0</source_block_id>
-    <sink_block_id>blocks_null_sink_0</sink_block_id>
+    <source_block_id>b_bipolar_to_unipolar_ff_0</source_block_id>
+    <sink_block_id>blocks_float_to_char_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>b_unipolar2bipolar_ff_0</source_block_id>
     <sink_block_id>vs_0_0_1</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>b_unipolar2bipolar_ff_0_0</source_block_id>
+    <sink_block_id>vs_0_2</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blks2_packet_decoder_0</source_block_id>
+    <sink_block_id>blocks_file_sink_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blks2_packet_decoder_0</source_block_id>
+    <sink_block_id>virtual_sink_0_0_0_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_char_to_float_1</source_block_id>
+    <sink_block_id>b_unipolar2bipolar_ff_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -4407,6 +5049,30 @@ def rrcos(Sps,ntaps,beta):
   <connection>
     <source_block_id>blocks_delay_0_1_0</source_block_id>
     <sink_block_id>qtgui_time_sink_x_0_1</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_file_source_0</source_block_id>
+    <sink_block_id>b_PCM_Encoder_Bb_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_file_source_0</source_block_id>
+    <sink_block_id>virtual_sink_0_0_0_1</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_float_to_char_0</source_block_id>
+    <sink_block_id>blks2_packet_decoder_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_float_to_char_0</source_block_id>
+    <sink_block_id>virtual_sink_0_0_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -4437,6 +5103,18 @@ def rrcos(Sps,ntaps,beta):
   <connection>
     <source_block_id>interp_fir_filter_xxx_0_0</source_block_id>
     <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>virtual_source_0</source_block_id>
+    <sink_block_id>interp_fir_filter_xxx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>virtual_source_0_0</source_block_id>
+    <sink_block_id>b_bipolar_to_unipolar_ff_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
